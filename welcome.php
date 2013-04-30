@@ -30,14 +30,14 @@
 
         </nav>
         <div class="lotus">
-        <h1 id="label">Learning about CANCER</h1>
-        <div id="left-lotus"></div>
-        <div id="right-lotus"></div>
+            <h1 id="label">Learning about CANCER</h1>
+            <div id="left-lotus"></div>
+            <div id="right-lotus"></div>
 
-        <nav>
-            <a id="wm-pg" href="#"><i><</i> WOMEN</a>
-            <a id="mn-pg" href="#">MEN <i>></i></a>
-        </nav>
+            <nav>
+                <a id="wm-pg" href="#"><i><</i> WOMEN</a>
+                <a id="mn-pg" href="#">MEN <i>></i></a>
+            </nav>
 
         </div>
         <div class="welcome-txt">
