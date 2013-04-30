@@ -22,7 +22,10 @@
        	  	Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus 
        	  	et magnis dis parturient montes, nascetur ridiculus mus.</p>
        	  </div>
-       <div id="tabs-2" style="background-color:#00FFFF;"><p>Donec ullamcorper nulla non metus auctor fringilla. Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p></div>
+       <div id="tabs-2" style="background-color:#00FFFF;"><p>Donec ullamcorper nulla non metus auctor fringilla. 
+       	Curabitur blandit tempus porttitor. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Cum sociis 
+       	natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+       </div>
 	</div>
 
 </div>
