@@ -20,7 +20,7 @@ textarea {
 
 body {
     width: 780px;
-    height: 2000px;
+    height: 100%;
     margin: 0 auto;
     border: 2px solid #E0E2ED ;
     font-size: 1em;
@@ -115,7 +115,7 @@ textarea {
     margin: 0;
 
  }
- 
+
 
 
 /* -------------------------- WELCOME PAGE ------------------------------------ */
@@ -129,11 +129,12 @@ textarea {
     display: block;
     background-color: #F3F2F5;
     padding-top: 10px;
-    height: 25%;
+    height: 500px;
 
   
 }
 #left-lotus {   
+    position: relative;
     display: block;
     float: left;
     height:370px;
@@ -141,6 +142,7 @@ textarea {
     background: url("http://localhost:8888/skylakes-c/img/woman.png")19px  no-repeat;
 }
 #right-lotus { 
+    position: relative;
     display: block;
     float: right;
     height:370px;
@@ -166,10 +168,67 @@ textarea {
     border: 2px solid #E0E2ED ;
 }
 
+/* -------------------------- CANCER PAGES ------------------------------------ */
 
+#cancer-type {   
+    display: block;
+    float: left;
+    padding: 70px 30px 0 30px;
+    font-size: .9em;
+    line-height: 1;
+    height:200px;
+    width:42.1%;
+    background-color: #5d94ff;
+}
 
+#c-type {
 
+}
 
+/* -------------------------- CANCER MAPS ------------------------------------ */
+
+#map1 {
+    position: absolute;
+    top: 27px;
+    right:167px;
+    font-weight: bold;
+    color:#FF00FF;
+}
+#map2 {
+    position: absolute;
+    top: 150px;
+    right:167px;
+    font-weight: bold;
+    color:#00FF00;
+}
+#map3 {
+    position: absolute;
+    top: 190px;
+    right:160px;
+    font-weight: bold;
+    color:#FF0000;
+}
+#map4 {
+    position: absolute;
+    top: 218px;
+    right:190px;
+    font-weight: bold;
+    color:#923fe5;
+}
+#map5 {
+    position: absolute;
+    top: 247px;
+    right:147px;
+    font-weight: bold;
+    color:#FFFF00;
+}
+#map6 {
+    position: absolute;
+    top: 268px;
+    right:165px;
+    font-weight: bold;
+    color:#FFFFFF;
+}
 
 
 
