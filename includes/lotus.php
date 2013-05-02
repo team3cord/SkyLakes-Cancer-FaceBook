@@ -4,8 +4,8 @@
             <div id="right-lotus"></div>
 
             <nav>
-                <a id="wm-pg" href="female.php"><i><</i> WOMEN</a>
-                <a id="mn-pg" href="male.php">MEN <i>></i></a>
+                <a id="wm-pg" href="female.php"><i>&laquo;</i> WOMEN</a>
+                <a id="mn-pg" href="male.php">MEN <i>&raquo;</i></a>
             </nav>
 
         </div>

@@ -29,5 +29,12 @@
 	</div>
 
 </div>
+<script>
+       $(document).ready(function(){
+              $('.dots').click(function(){
+                     alert($(this).attr('value'));
+              });
+       });
+</script>
 
 <?php include('includes/footer.php'); ?>

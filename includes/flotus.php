@@ -4,7 +4,7 @@
             
 
             <nav>
-                <a id="wm-pg" href="female.php"><i><</i> WOMEN</a>
+                <a id="wm-pg" href="female.php"><i>&laquo;</i> Back</a>
             </nav>
 
         </div>

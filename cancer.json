@@ -1,0 +1,9 @@
+{
+	"brain_cancer"  :  {
+	  "title"       : "Brain Cancer",
+	  "description" : "Malignant brain tumors can readily spread through the rest ofbrain and spinal cord, destroying or compressing normal brain tissue, causingdamage that is often disabling or sometimes fatal. ",
+		"tab_one"   : "<p>Brain tumors are masses of abnormal cells that have grown out of control. Unlike cancers that start in other parts of the body, tumors that start in damage because they can grow and spread into nearby areas, where they can destroy normal brain tissue. </p>",
+		"tab_two"   : "<p>Brain tumors, like most other tumors, are caused by changes in a person’sDNA. DNA is the chemical in each of our cells that makes up our genes – the instructions for how our cells function. Some genes control when our cells grow, divide and die. Certain genes that speed up cell division are called oncogenes. Others that slow down cell division, or cause cells to die at the right time, are called tumor suppressor genes. Cancer can be caused by DNA changes that turn on oncogenes and turn off tumor suppressors. These changes can be inherited from a parent or, more likely, may happen during a person’s lifetime as cells in the body divide to form two new cells. </p>"
+
+	}
+}
