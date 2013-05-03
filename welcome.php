@@ -3,7 +3,7 @@
 
         <div class="welcome-txt">
             <h2>Welcome</h2>
-            <p>Vestibulum id ligula porta felis euismod semper. Nullam quis risus eget urna mollis ornare vel eu leo. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean lacinia bibendum nulla sed consectetur. Curabitur blandit tempus porttitor. Vestibulum id ligula porta felis euismod semper.</p>
+            <p>Understanding the causes, risk factors, detection methods and treatment options can be vital to surviving cancer, or avoiding it all together. This resource will help you learn more about the different types of cancer that can afflict our loved ones and ourselves. </p>
         </div>
 
 <?php include('includes/footer.php'); ?>

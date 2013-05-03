@@ -178,7 +178,6 @@ textarea {
     line-height: 1;
     height:200px;
     width:42.1%;
-    background-color: #5d94ff;
 }
 
 #c-type {
@@ -199,18 +198,22 @@ a.dots {
     right:167px;
     color:#FF00FF;
 }
-#map1 span {
-    display: inline-block;
-    background-color: #00FF00;
+.dotsname {
+    display: none;
+    text-align: center;
+    background-color: #697989;
 
     position: absolute;
     float: left;
     top: 0;
     left: 35px;
-    width:110px;
+    width:90px;
     padding: 1px 0 1px 5px;
 }
-#map1 span:before {
+.manmap a:hover .dotsname {
+    display: inline-block;
+} 
+.dotsname:before {
     content: "";
     position: absolute;
     right: 100%;
@@ -218,7 +221,7 @@ a.dots {
     width: 0;
     height: 0;
     border-top: 11px solid transparent;
-    border-right: 14px solid #00FF00;
+    border-right: 14px solid #697989;
     border-bottom: 12px solid transparent;
 }
 #map2 {
@@ -239,12 +242,12 @@ a.dots {
 #map5 {
     top: 247px;
     right:147px;
-    color:#FFFF00;
+    color:#FF8000;
 }
 #map6 {
     top: 268px;
     right:165px;
-    color:#FFFFFF;
+    color:#000000;
 }
 
 
