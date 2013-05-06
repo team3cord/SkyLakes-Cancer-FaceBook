@@ -167,6 +167,10 @@ textarea {
     padding: 25px 100px 45px;
     border: 2px solid #E0E2ED ;
 }
+/* -------------------------- TABS -------------------------------------------- */
+#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5 {
+    background-color: #FFF;  
+}
 
 /* -------------------------- CANCER PAGES ------------------------------------ */
 
