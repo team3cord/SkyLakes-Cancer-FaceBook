@@ -3,9 +3,9 @@
 <div class="main-content">
 	<div id="tabs">
        <ul style="margin: 0; padding: 0; font-size: 10px;">                       <!-- TEMP FIX -->
- 		       <li class="pain"><a style="padding: 16px 30px 0 31px;" href="#tabs-1">What is Cancer</a></li>
+ 		       <li class="pain"><a style="padding: 16px 30px 0 31px;" href="#tabs-1">What Is Cancer</a></li>
  	         <li class="pain"><a style="padding:16px 21px 0 21px;"href="#tabs-2">Signs & Symptoms</a></li>
-           <li class="pain"><a style="padding:16px 10px 0 10px;"href="#tabs-3">How Common is Cancer</a></li>
+           <li class="pain"><a style="padding:16px 10px 0 10px;"href="#tabs-3">How Common Is Cancer</a></li>
 	         <li class="pain"><a style="padding:16px 18px 0 19px;"href="#tabs-4">What Causes Cancer</a></li>
            <li class="pain" style="width: 19.8%;"><a style="padding:16px 26px 0 24px;" href="#tabs-5">Cancer Treatment</a></li>
        </ul>
