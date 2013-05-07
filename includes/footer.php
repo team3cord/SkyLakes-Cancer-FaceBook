@@ -12,6 +12,10 @@
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
             g.src='//www.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
+            $(function() {
+            $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('onpg');
+             });
         </script>
+    </div>  <!-- wrap -->
     </body>
 </html>

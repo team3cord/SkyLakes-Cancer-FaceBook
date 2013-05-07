@@ -2,12 +2,12 @@
 <?php include('includes/lotus.php'); ?>
 <div class="main-content">
 	<div id="tabs">
-       <ul style="font-size: 71%;">                       <!-- TEMP FIX -->
- 		<li><a href="#tabs-1">What is Cancer</a></li>
- 		<li><a href="#tabs-2">Signs & Symptoms</a></li>
-            <li><a href="#tabs-3">How Common is Cancer</a></li>
-	      <li><a href="#tabs-4">What Causes Cancer</a></li>
-            <li><a href="#tabs-5">Cancer Treatment Options</a></li>
+       <ul style="margin: 0; padding: 0; font-size: 10px;">                       <!-- TEMP FIX -->
+ 		       <li class="pain"><a style="padding: 16px 30px 0 31px;" href="#tabs-1">What is Cancer</a></li>
+ 	         <li class="pain"><a style="padding:16px 21px 0 21px;"href="#tabs-2">Signs & Symptoms</a></li>
+           <li class="pain"><a style="padding:16px 10px 0 10px;"href="#tabs-3">How Common is Cancer</a></li>
+	         <li class="pain"><a style="padding:16px 18px 0 19px;"href="#tabs-4">What Causes Cancer</a></li>
+           <li class="pain" style="width: 19.8%;"><a style="padding:16px 26px 0 24px;" href="#tabs-5">Cancer Treatment</a></li>
        </ul>
        <div id="tabs-1"><p>Cancer refers to a group of more than 100 diseases in which cells in a part of the body begin to grow out of control. There are many kinds of cancer, all of which start because abnormal cells grow out of control. Untreated, cancer can result in serious illness, even death. </p>
             <p>Normal body cells grow, divide and die in an orderly fashion. It is how the body grows in the early years of life, and how the body repairs injuries and replaces worn-out or dying cells as an adult. </p>
@@ -18,7 +18,7 @@
        <div id="tabs-2">
             <p>Cancers can cause almost any sign or symptom.  The signs and symptoms will depend on where the cancer is, how big it is and how much it affects the organs and tissues. If it has metastasized, signs or symptoms may appear in different parts of the body. As cancer grows, it can begin to push on nearby organs, blood vessels and nerves. This pressure causes some of the signs and symptoms of cancer.</p>
             <p>You should know some of the general signs and symptoms of cancer. But remember, having any of these does not mean that you have cancer – many other things cause these signs and symptoms, too. If you have any of these symptoms and they last for a long time or get worse, please see a doctor to find out what is going on.</p>
-            <ul>
+            <ul >
                   <li>Unexplained weight loss</li>
                   <li>Fever</li>
                   <li>Fatigue</li>

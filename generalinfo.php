@@ -3,8 +3,8 @@
 <div class="main-content">
 	 <div id="tabs">
        <ul>
-                  <li><a href="#tabs-1">FAQ</a></li>
-                  <li><a href="#tabs-2">Glossary</a></li>
+                  <li class="pain"><a style="padding:14px 21px 0 49px;"href="#tabs-1">FAQ</a></li>
+                  <li class="pain"><a style="padding:14px 21px 0 33px;"href="#tabs-2">Glossary</a></li>
        </ul>
        <div id="tabs-1">
             <h3>What is cancer?</h3>

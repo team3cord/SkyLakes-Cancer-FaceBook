@@ -2,7 +2,7 @@
 <?php include('includes/lotus.php'); ?>
 
         <div class="welcome-txt">
-            <h2>Welcome</h2>
+            <h1>Welcome</h1>
             <p>Understanding the causes, risk factors, detection methods and treatment options can be vital to surviving cancer, or avoiding it all together. This resource will help you learn more about the different types of cancer that can afflict our loved ones and ourselves. </p>
         </div>
 

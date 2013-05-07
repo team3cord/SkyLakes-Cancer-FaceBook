@@ -3,7 +3,7 @@
 <div class="main-content">
    <div id="tabs">
        <ul>
-       		<li><a href="#tabs-1">Prevention</a></li>
+       		<li class="pain" style="margin-bottom: -2px; margin-top: -6px;"><a style="padding:14px 21px 0 25px;"href="#tabs-1">Prevention</a></li>
        		
        </ul>
        <div id="tabs-1">

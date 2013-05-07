@@ -14,7 +14,7 @@
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/jquery-ui-1.10.2.custom.min.css">
+        <link rel="stylesheet" href="css/jquery-ui-1.10.2.custom.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
         <script src="js/vendor/jquery-1.9.1.min.js"></script>
         <script src="js/vendor/jquery-ui-1.10.2.custom.min.js"></script>
@@ -26,10 +26,11 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
+        <div class="wrap">
         <nav class="main-nav">
-            <a href="welcome.php"><span>Welcome</span></a>
-            <a href="learnmore.php"><span>Learn More</span></a>
-            <a href="generalinfo.php"><span>General Info</span></a>
-            <a href="preventative.php"><span>Preventative</span></a>
+            <a id="wel-page" href="welcome.php"><span>Welcome</span></a>
+            <a id="learn-page" href="learnmore.php"><span>Learn More</span></a>
+            <a id="gen-page" href="generalinfo.php"><span>General Info</span></a>
+            <a id="pre-page" href="preventative.php"><span>Preventative</span></a>
 
         </nav>

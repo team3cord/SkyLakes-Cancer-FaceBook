@@ -19,13 +19,22 @@ textarea {
 }
 
 body {
-    width: 780px;
+    width: 700px;
     height: 100%;
+    
     margin: 0 auto;
-    border: 2px solid #E0E2ED ;
     font-size: 1em;
     line-height: 1.4;
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
 }
+.wrap {
+    width: 670px;
+    background: url(../img/bg.jpg) no-repeat;
+    margin: 0 auto;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: ‘Palatino Linotype’, ‘Book Antiqua’, Palatino, serif;
+} 
     a {
         text-decoration: none;   
     }
@@ -104,120 +113,189 @@ textarea {
 
 /* -------------------------- NAVIGATION ------------------------------------ */
  nav.main-nav a {
-    display: inline-block;
+    position: relative;
+    z-index: 99999;
+    display: block;
+    float:left;
     text-align: center;
-    width: 24.6%;
+    width: 25%;
     height: 50px;
-    font-size: 1.4em;
+    font-size: 1.35em;
     color: #0D0051;
-    background-color: #F3F2F5;
     padding-top: 17px; 
     margin: 0;
 
+ }
+ .onpg span {
+    text-decoration: underline;
+    color: #FF00FF;
  }
 
 
 
 /* -------------------------- WELCOME PAGE ------------------------------------ */
 
-#label {
-    display: none;
 
-}
 
 .lotus {
+    position: relative;
     display: block;
-    background-color: #F3F2F5;
     padding-top: 10px;
-    height: 500px;
+    height: 450px;
 
   
 }
-#left-lotus {   
+.slogan {
+    position: absolute;
+    z-index: 1;
+    top: 165px;
+    left:250px;
+    height: 78px;
+    width: 175px;
+    background-color: #FF00FF;
+    background: url(../img/slogan.png);
+    text-indent: -99999px;
+    overflow: hidden;
+}
+
+i.cir-wmn {
+  display: block;
+  float: left;
+  margin-right: 3px;
+  width: 27px;
+  height: 27px;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -2px -2px;
+}
+#mn-pg {
     position: relative;
+    float:right;
+    margin-right: 110px;
+    margin-top: -32px;
+    padding-top: 2px;
+    font-weight: bold;
+    font-size: 22px;
+}
+#wm-pg {
+    position: relative;
+    float:left;
+    margin-left: 90px;
+    margin-top: -32px;
+    padding-top: 2px;
+    font-weight: bold;
+    font-size: 22px;
+}
+i.cir-mn {
+  display: block;
+  float: right;
+  margin-left: 3px;
+  width: 27px;
+  height: 27px;
+  background-image: url(../img/sprite.png);
+  background-repeat: no-repeat;
+  background-position: -33px -2px;
+}
+
+.welcome-txt {
+    height: 165px;
+    margin-top: 31px;
+    padding: 9px 70px 45px;
+    border: 1.5px solid #E0E2ED ;
+    background-color: #FFFFFF;
+}
+.welcome-txt h1 {
+    color: #241162;
+}
+.welcome-txt p {
+    color: #241162;
+}
+.main-content {
+    margin-top: -5px;
+}
+/* -------------------------- TABS -------------------------------------------- */
+#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5 {
+    background-color: #FFF;  
+    color: #241162;
+    font-size: 14px;
+    padding: 10px 35px 10px 35px;
+    border: 2px solid #241162;
+}
+
+/* -------------------------- CANCER PAGES ------------------------------------ */
+#left-lotus {   
+    position: relative; 
     display: block;
     float: left;
     height:370px;
-    width:390px;
-    background: url("http://localhost:8888/skylakes-c/img/woman.png")19px  no-repeat;
+    width:330px;
+    background: url(../img/woman.png) 7px  no-repeat;
 }
 #right-lotus { 
     position: relative;
     display: block;
     float: right;
     height:370px;
-    width:390px;
-    background: url("http://localhost:8888/skylakes-c/img/man.png") 0px  no-repeat;
+    width:330px;
+    background: url(../img/man.png) 2px  no-repeat;
 }
 
 
 
-#wm-pg {
-    float:left;
-    margin-left: 150px;
-    font-size: 1.6em;
-}
-#mn-pg {
-    float:right;
-    margin-right: 150px;
-    font-size: 1.6em;
-}
 
-.welcome-txt {
-    padding: 25px 100px 45px;
-    border: 2px solid #E0E2ED ;
-}
-/* -------------------------- TABS -------------------------------------------- */
-#tabs-1, #tabs-2, #tabs-3, #tabs-4, #tabs-5 {
-    background-color: #FFF;  
-}
-
-/* -------------------------- CANCER PAGES ------------------------------------ */
-
-#cancer-type {   
+#mcancer-type {   
     display: block;
     float: left;
-    padding: 70px 30px 0 30px;
-    font-size: .9em;
-    line-height: 1;
+    padding: 65px 0 105px 54px;
+    
+    line-height: 1.2;
     height:200px;
-    width:42.1%;
+    width:280px;
+}
+#fcancer-type {   
+    display: block;
+    float: right;
+    padding: 65px 30px 105px 0;
+    line-height: 1.2;
+    height:200px;
+    width:310px;
 }
 
-#c-type {
+#c-title {
+    font-size: 2em;
 
 }
 
 /* -------------------------- CANCER MAPS ------------------------------------ */
 a.dots {
     position: absolute;
-    background-color: #fff;
-    height: 20px;
-    width: 20px;
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -37px -28px;
+    height: 18px;
+    width: 18px;
     display: block;
     font-weight: bold;
 }
-#map1 {
-    top: 27px;
-    right:167px;
-    color:#FF00FF;
-}
+
 .dotsname {
     display: none;
     text-align: center;
-    background-color: #697989;
-
+    background-image: url(../img/sprite.png);
+    background-repeat: no-repeat;
+    background-position: -66px -1px;
     position: absolute;
     float: left;
     top: 0;
-    left: 35px;
-    width:90px;
-    padding: 1px 0 1px 5px;
+    left: 20px;
+    width:146px;
+    height: 32px;
+    padding: 4px 0 1px 5px;
 }
 .manmap a:hover .dotsname {
     display: inline-block;
 } 
-.dotsname:before {
+/*.dotsname:before {
     content: "";
     position: absolute;
     right: 100%;
@@ -227,31 +305,51 @@ a.dots {
     border-top: 11px solid transparent;
     border-right: 14px solid #697989;
     border-bottom: 12px solid transparent;
+}*/
+#map1 {
+    top: 52px;
+    right:153px;
+    color:#FFFFFF;
 }
 #map2 {
-    top: 150px;
-    right:167px;
-    color:#00FF00;
+    top: 143px;
+    right:150px;
+    color:#FFFFFF;
 }
 #map3 {
     top: 190px;
     right:160px;
-    color:#FF0000;
+    color:#FFFFFF;
 }
 #map4 {
-    top: 218px;
-    right:190px;
-    color:#923fe5;
+    top: 164px;
+    right:150px;
+    color:#FFFFFF;
 }
 #map5 {
-    top: 247px;
-    right:147px;
-    color:#FF8000;
+    top: 229px;
+    right:132px;
+    color:#FFFFFF;
 }
 #map6 {
-    top: 268px;
-    right:165px;
-    color:#000000;
+    top: 246px;
+    right:146px;
+    color:#FFFFFF;
+}
+#map7 {
+    top: 249px;
+    right:153px;
+    color:#FFFFFF;
+}
+#map8 {
+    top: 213px;
+    right:172px;
+    color:#FFFFFF;
+}
+#map9 {
+    top: 235px;
+    right:153px;
+    color:#FFFFFF;
 }
 
 
