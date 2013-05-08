@@ -127,9 +127,12 @@ textarea {
 
  }
  .onpg span {
-    text-decoration: underline;
-    color: #FF00FF;
+    color: #5D6FB8 !important;
+    padding-bottom: 0px;
+    border-bottom: 2px solid #5D6FB8;
+    
  }
+
 
 
 

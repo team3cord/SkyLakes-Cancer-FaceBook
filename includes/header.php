@@ -28,7 +28,7 @@
         <!-- Add your site or application content here -->
         <div class="wrap">
         <nav class="main-nav">
-            <a id="wel-page" href="welcome.php"><span>Welcome</span></a>
+            <a  id="wel-page" href="welcome.php"><span>Welcome</span></a>
             <a id="learn-page" href="learnmore.php"><span>Learn More</span></a>
             <a id="gen-page" href="generalinfo.php"><span>General Info</span></a>
             <a id="pre-page" href="preventative.php"><span>Preventative</span></a>

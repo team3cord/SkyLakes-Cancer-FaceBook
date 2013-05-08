@@ -4,18 +4,30 @@
         $( "#tabs" ).tabs();
 
     });
+    // $(function() {
+    //           $('.main-nav a').click(function() {
+    //                $('main-nav a').removeClass('onpg');
+    //                $(this).addClass('onpg');
+    //             });
+    //         });
+    $(function() {
+        var loc = window.location.href; // returns the full URL
+            if(/welcome/.test(loc)) {
+                $('#wel-page').addClass('onpg');
+            }
+            if(/learnmore/.test(loc)) {
+                $('#learn-page').addClass('onpg');
+            }
+            if(/generalinfo/.test(loc)) {
+                $('#gen-page').addClass('onpg');
+            }
+            if(/preventative/.test(loc)) {
+                $('#pre-page').addClass('onpg');
+         }
+    });
     </script>
 
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src='//www.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-            $(function() {
-            $('nav a[href^="/' + location.pathname.split("/")[1] + '"]').addClass('onpg');
-             });
-        </script>
-    </div>  <!-- wrap -->
+
+    </div>  <!-- wrap -->   
     </body>
 </html>
