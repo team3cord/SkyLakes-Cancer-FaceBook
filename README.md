@@ -1,7 +1,7 @@
 # [Sky Lakes Medical Center Cancer Care FaceBook Application  ](https://www.facebook.com/SkyLakesMedicalCenter/app_572970382746928)  
 
 
-![Cancer Care FaceBook screenshot](skylakes-c/img/cancer-care-fb.png) 
+![Cancer Care FaceBook screenshot](img/cancer-care-fb.png) 
 
 
 ---  
